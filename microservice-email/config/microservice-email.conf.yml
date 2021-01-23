@@ -1,0 +1,14 @@
+smtp:
+  host: xx.xx.xx
+  port: 465
+  user: xx@xxx.xx
+  password: xyzx
+
+rabbitmq:
+  host: rabbitmq_server
+  user: user
+  password: password
+  queue_name: email_queue
+  exchange_name: 'logs'
+  exchange_kind: 'fanout'
+  declare: true

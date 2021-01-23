@@ -1,0 +1,18 @@
+server_port: 8080
+options:
+  schema: "5f7b20d2979bf30011a15c09.iran.liara.space"
+  prefix: "X2QXU4V6RQP32P19I5SFE"
+  base_url: "127.0.0.1"
+redis:
+  host: "127.0.0.1"
+  port: "6379"
+  password: ""
+postgres:
+  host: "127.0.0.1"
+  port: 5432
+  password: "newpassword"
+  user: "postgres"
+  db_name: "yektanet"
+jwt_rsa_keys:
+  access: "sample"
+  refresh: "sample"
